@@ -33,3 +33,10 @@ const readLine = require('readline-sync');
 //     }
 //     start++;
 // }
+
+let answer = readLine.question("Enter y or n: ");
+while(answer != "y" && answer !="n" && answer!="quit"){
+    console.log("Invalid answer.");
+    answer = readLine.question("Try again. Enter y or n: ");
+}
+console.log("rest of program");
