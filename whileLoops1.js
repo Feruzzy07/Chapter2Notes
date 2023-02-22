@@ -88,5 +88,3 @@ const readLine = require('readline-sync');
 // j++;
 // }
 
-//Question 11
-let k =
